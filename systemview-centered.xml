@@ -1,0 +1,69 @@
+ <theme>
+   <view name="system">
+      <carousel name="systemcarousel">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>00000044</color>
+         <type>horizontal</type>
+         <logoScale>2</logoScale>
+         <logoSize>0.25 0.15</logoSize>
+         <maxLogoCount>2</maxLogoCount>
+         <scrollSound>./_inc/sounds/scroll.wav</scrollSound>
+         <defaultTransition>instant</defaultTransition>
+      </carousel>
+
+      <image name="logo">
+<!--          <path>./_inc/logo/${system.theme}.svg</path> -->
+         <path>./_inc/logo/${system.theme}.png</path>
+         <color>${systemLogoColor}</color>
+      </image>
+
+      <text name="logoText">
+         <fontPath>${fontLogo}</fontPath>
+         <forceUppercase>true</forceUppercase>
+         <lineSpacing>1</lineSpacing>
+         <alignment>center</alignment>
+      </text>
+
+      <image name="system-art" extra="true">
+         <path>./_inc/systems/_default.png</path>
+         <path>./_inc/systems/${system.theme}.png</path>
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.5</pos>
+         <size>0 1</size>
+         <saturation>${systemArtSaturation}</saturation>
+         <zIndex>5</zIndex>
+      </image>
+
+	  <image name="system-carousel-bakground" extra="true">
+         <origin>0.5 0</origin>
+         <pos>0.5 0</pos>
+         <size>1 1</size>
+         <tile>true</tile>
+         <color>${systemCarouselBackgroundColor}</color>
+         <path>${spacerImage}</path>
+         <zIndex>2</zIndex>
+      </image>
+
+      <image name="system-art-mask" extra="true">
+         <origin>0.5 0</origin>
+         <pos>0.5 0</pos>
+         <size>0 1</size>
+         <path>./_inc/images/system-art-mask-1-1.png</path>
+         <color>${systemMaskColor}</color>
+         <zIndex>4</zIndex>
+      </image>
+      <image name="system-art-fade" extra="true">
+         <origin>0 0</origin>
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>${systemArtFade}</color>
+         <zIndex>3</zIndex>
+      </image>
+
+   </view>
+
+</theme>

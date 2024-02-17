@@ -1,0 +1,28 @@
+ <theme>
+
+   <view name="system">
+
+      <helpsystem name="help">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="help-background" extra="static">
+         <visible>false</visible>
+      </image>
+
+   </view>
+
+   <view name="basic,detailed,video">
+
+      <helpsystem name="help">
+         <origin>0 0</origin>
+         <pos>1 1</pos>
+      </helpsystem>
+      <image name="help-background" extra="static">
+         <visible>false</visible>
+      </image>
+
+   </view>
+
+</theme>
+

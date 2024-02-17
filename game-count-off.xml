@@ -1,0 +1,9 @@
+<theme>
+   <view name="system">
+
+      <text name="systemInfo">
+         <pos>1 1</pos>
+      </text>
+   </view>
+
+</theme>

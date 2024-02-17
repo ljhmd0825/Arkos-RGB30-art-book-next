@@ -1,0 +1,21 @@
+ <theme>
+
+   <view name="detailed">
+
+      <image name="md_thumbnail"> <!--  zIndex not set -->
+		 <visible>false</visible>
+      </image>
+
+   </view>
+
+   <view name="video">
+
+      <image name="md_thumbnail"> <!--  zIndex not set -->
+		 <visible>false</visible>
+      </image>
+
+   </view>
+
+</theme>
+
+

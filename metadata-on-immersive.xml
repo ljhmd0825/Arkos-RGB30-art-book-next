@@ -1,0 +1,63 @@
+ <theme>
+
+   <view name="detailed,video">
+
+      <rating name="md_rating">
+         <origin>0 0.5</origin>
+         <pos>0.546875 0.725</pos><!-- 350 348 -->
+         <size>0 0.041666666666667</size><!-- x 20 -->
+      </rating>
+      <text name="md_description">
+         <pos>0.546875 0.791666666666667</pos><!-- 350 380 -->
+         <size>0.40625 0.158333333333333</size><!-- 260 78 -->
+         <fontSize>0.03</fontSize><!-- 16 -->
+         <lineSpacing>1.22</lineSpacing>
+      </text>
+      <image name="game-metadata-background" extra="true">
+         <origin>0 1</origin>
+         <path>${spacerImage}</path>
+         <tile>true</tile>
+         <color>${gamelistListMetadataBackgroundColor}</color>
+         <pos>0.5 1</pos><!-- 320 0 -->
+         <size>0.5 0.354166666666667</size><!-- 320 170-->
+         <zIndex>4</zIndex>  <!--  set 4 -->
+      </image>
+
+      <image name="gamelist-background" extra="true">
+         <size>0.5 1</size> <!--  <zIndex>4</zIndex> -->
+      </image> 
+
+   </view>
+
+   <view name="detailed">
+      <image name="md_image"> <!-- <zIndex>3</zIndex> -->
+         <origin>0.5 0.5</origin>
+         <pos>0.75 0.322916666666667</pos><!-- 480 155 -->
+         <maxSize>1 1</maxSize><!-- 480 480 -->
+         <zIndex>2</zIndex>
+         <color>FFFFFF99</color> <!-- 60% -->
+      </image>
+
+      <image name="md_marquee"> <!--  zIndex not set -->
+         <pos>0.75 0.5</pos><!-- 480 240 -->
+         <maxSize>0.4 0.9</maxSize><!-- 230 430 -->
+      </image>
+
+   </view>
+
+   <view name="video">
+
+      <video name="md_video"> <!--  <zIndex>3</zIndex> -->
+         <pos>0.75 0.322916666666667</pos><!-- 480 155 -->
+         <maxSize>1 1</maxSize><!-- 480 480 --> 
+         <color>FFFFFFDD</color> <!-- 87% -->
+      </video>
+
+      <image name="md_marquee"> <!--  zIndex not set -->
+         <pos>0.75 0.5</pos><!-- 480 240 -->
+         <maxSize>0.4 0.9</maxSize><!-- 230 430 -->
+      </image>
+
+   </view>
+
+</theme>

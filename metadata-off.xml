@@ -1,0 +1,56 @@
+ <theme>
+
+   <subset name="tumbnail" displayName="Thumbnail Box">
+      <include name="on" displayName="On">./thumbnail-on.xml</include>
+      <include name="off" displayName="Off">./thumbnail-off.xml</include>
+   </subset>
+
+   <view name="detailed,video">
+
+<!--  no image game-metadata-background  -->
+       <image name="gamelist-background" extra="true">
+         <size>0.5 1</size> <!--  <zIndex>4</zIndex> -->
+      </image> 
+
+   </view>
+
+   <view name="detailed">
+
+      <image name="md_image"> <!-- <zIndex>3</zIndex> -->
+         <pos>0.75 0.469</pos><!-- 480 240 -->
+         <maxSize>0.40625 0.895833333333333</maxSize><!-- 260 430 -->
+      </image>
+
+      <image name="md_marquee"> <!--  zIndex not set -->
+         <pos>0.75 0.11875</pos><!-- 480 240 -->
+         <maxSize>0.4 0.10</maxSize><!-- 230 430 -->
+      </image>
+<!--  md_thubnail added at metadata-off -->
+      <image name="md_thumbnail"> <!--  zIndex not set -->
+         <pos>0.60 0.80</pos>
+         <maxSize>0.15 0.30</maxSize>
+      </image>
+
+   </view>
+
+   <view name="video">
+
+      <video name="md_video"> <!-- <zIndex>3</zIndex> -->
+         <pos>0.75 0.469</pos><!-- 480 240 -->
+         <maxSize>0.46 0.895833333333333</maxSize><!-- 260 430 -->
+      </video>
+
+      <image name="md_marquee"> <!--  zIndex not set -->
+         <pos>0.75 0.11875</pos><!-- 480 240 -->
+         <maxSize>0.4 0.10</maxSize><!-- 230 430 -->
+      </image>
+<!--  md_thubnail added at metadata-off -->
+      <image name="md_thumbnail"> <!--  zIndex not set -->
+         <pos>0.60 0.80</pos>
+         <maxSize>0.15 0.30</maxSize>
+      </image>
+
+   </view>
+
+</theme>
+
