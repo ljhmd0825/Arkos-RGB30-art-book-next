@@ -1,4 +1,4 @@
-# ljhmd0825-Arkos-RGB30-art-book-next
+# Arkos-RGB30-art-book-next
 artbook next theme for Arkos RGB30 (also include Korean font)
 
 ## Preview
