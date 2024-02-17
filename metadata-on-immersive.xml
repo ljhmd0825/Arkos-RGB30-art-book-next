@@ -11,7 +11,7 @@
          <pos>0.546875 0.791666666666667</pos><!-- 350 380 -->
          <size>0.40625 0.158333333333333</size><!-- 260 78 -->
          <fontSize>0.03</fontSize><!-- 16 -->
-         <lineSpacing>1.22</lineSpacing>
+         <lineSpacing>1.27</lineSpacing>
       </text>
       <image name="game-metadata-background" extra="true">
          <origin>0 1</origin>
