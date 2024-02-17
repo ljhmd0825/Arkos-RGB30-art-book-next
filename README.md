@@ -1,6 +1,10 @@
 # Arkos-RGB30-art-book-next
 artbook next theme for Arkos RGB30 (also include Korean font)
 
+## Preview
+![2  menu](https://github.com/ljhmd0825/Arkos-RGB30-art-book-next/assets/75230324/ffbf7b8c-e68d-4598-b6db-8d6dd69cd560)
+![1  first](https://github.com/ljhmd0825/Arkos-RGB30-art-book-next/assets/75230324/ac609976-bd52-462f-a3b0-f06e250603af)
+
 ### **Acknowledgments**
 * Original theme : https://github.com/anthonycaccese/art-book-next-jelos
 * Referenced Theme :  https://github.com/nkahoang/es-theme-art-book-next-arkos
