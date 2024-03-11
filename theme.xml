@@ -41,7 +41,6 @@ license:       creative commons CC-BY-NC-SA
       <include name="multi" displayName="Multi Artwork">./systemview-multi.xml</include>
       <include name="centered-one-logo" displayName="Centered Artwork (Single Logo)">./systemview-centered-one-logo.xml</include>
       <include name="centered" displayName="Centered Artwork (Multiple Logos)">./systemview-centered.xml</include>
-<!--       <include name="test" displayName="Test">./systemview-test.xml</include> -->
    </subset>
 
    <!-- Gamelist View Style -->
