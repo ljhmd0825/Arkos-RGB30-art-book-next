@@ -70,7 +70,8 @@ license:       creative commons CC-BY-NC-SA
          <visible>false</visible>
       </controllerActivity>
       <text name="clock">
-         <pos>1 1</pos>
+         <pos>0.5 0</pos>
+         <fontSize>0.032</fontSize>
       </text>
       <batteryIndicator name="batteryIndicator">
          <color>${statusBarIconColor}</color>
@@ -351,7 +352,7 @@ license:       creative commons CC-BY-NC-SA
       </menuBackground>
       <menuIcons name="menuicons">
          <iconSystem>./_inc/images/menu-icon-system.svg</iconSystem>
-		 <iconBrightnessctl>./_inc/images/Brightnessctl.png</iconBrightnessctl>
+         <iconBrightnessctl>./_inc/images/menu-icon-brightness.svg</iconBrightnessctl>
          <iconUpdates>./_inc/images/menu-icon-update.svg</iconUpdates>
          <iconControllers>./_inc/images/menu-icon-controller.svg</iconControllers>
          <iconGames>./_inc/images/menu-icon-games.svg</iconGames>
@@ -366,6 +367,7 @@ license:       creative commons CC-BY-NC-SA
          <iconRestart>./_inc/images/menu-icon-restart.svg</iconRestart>
          <iconShutdown>./_inc/images/menu-icon-shutdown.svg</iconShutdown>
          <iconFastShutdown>./_inc/images/menu-icon-shutdown.svg</iconFastShutdown>
+         <iconOptions>./_inc/images/menu-icon-options.svg</iconOptions>
       </menuIcons>
    </view>
 
